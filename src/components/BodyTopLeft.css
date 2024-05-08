@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.body-top-left-container{
+    margin-left: 50px;
+}
+.image-contaier img{
+    width: 450px;
+    height: 450px;
+    border-radius: 30px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: 80px;
+}
+
+.left-buttom-left-top img{
+    margin-top: -25px;
+    margin-left: -8px;
+}
+.left-top-title{
+    display: flex;
+    flex-direction: column;
+    
+}
+.left-top-title h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 35px;
+    margin-top: -50px;
+
+}
+.left-buttom-left-top{
+    width: 230px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding-bottom: 20px;
+    margin-top: -370px;
+    margin-bottom: 100px;
+    margin-left: -20px;
+    box-shadow: 0px 24px 38px 0px #1e1e1e3a;
+}
+.left-buttom-left-buttom{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px 10px;
+    width: 230px;
+    margin-top: -50px;
+    margin-left: 30px;
+    box-shadow: 0px 24px 38px 0px #1e1e1e3a;
+}
+.left-buttom-content h1{
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.left-buttom-content{
+    text-align: left;
+    margin-left: 15px;
+}
+.left-buttom-content p{
+    font-family: "Manrope", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color:   #828282;
+}
+.left-buttom-left-buttom img{
+    width: 50px;
+    margin-left: 10px;
+}
+.left-buttom-content{
+    justify-content: left;
+}
+.left-buttom-left-top p{
+    text-align: left;
+    font-family: "Manrope", sans-serif;
+    color:  #828282;
+    font-size: 16px;
+    width: 180px;
+    margin-left: 40px;
+}
+.left-buttom-left-top h1{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.left-buttom{
+    display: flex;
+    flex-direction: row;
+    
+}
+.buttom-right-card-title{
+    display: flex;
+    flex-direction: row;
+}
+.buttom-right-card-title h1{
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    color:  #FFFFFF;
+    margin-left:10px ;
+}
+.buttom-right-card-title h4{
+    font-family: "Manrope", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #A6A3A0;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.buttom-right-card-content p{
+    color: #CCCCCC;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    width: 200px;
+    margin-left: 10px;
+    padding-top: 8px;
+}
+.left-buttom-right-card{
+    background-color:  #002E18;
+    width: 280px;
+    justify-content: center;
+    padding: 40px 20px;
+    border-radius: 35px;
+    border: 2px solid #3D3D3D ;
+    margin-top: -150px;
+    margin-left: 100px;
+    box-shadow: 0px 24px 38px 0px #1e1e1e3a;
+}

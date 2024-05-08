@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.body-top-top h3{
+    color:  #2DA950;
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 400;
+    font-size: 36px;
+}
+.body-top-top h1{
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: #1C1C1C;
+    width:700px;
+}
+
+.body-top-top-head-text{
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  
+}
+
+.body-top-top-head-text h1{
+    text-align: center; 
+    line-height: 70px;
+    margin-top: -5px;
+    width: 600px;
+}
+
+.body-top-top{
+    margin-top: 80px;
+}
+.body-top-buttom{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}

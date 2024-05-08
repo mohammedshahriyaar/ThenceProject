@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.bottom-right-container{
+    width: 50%;
+}
+.query-items {
+    display: flex;
+    margin-top: 105px;
+    margin-left: 30px;
+}
+.query-items{
+    display: flex;
+    flex-direction: column;
+}
+.query-item-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.query-items .query-item img{
+    width: 14px;
+    margin-top: -15px;
+    margin-left: 110px;
+}
+.query-items .query-item .line{
+    width: 88%;
+    height: 1px; 
+    background-color: #D7D7D7;
+}
+.query-item-top h3{
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    width: 380px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.query-answers p{
+    text-align: left;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #617275;
+    width: 500px;
+    margin-bottom: 30px;
+}

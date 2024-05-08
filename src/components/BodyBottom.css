@@ -1,0 +1,8 @@
+.body-bottom-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    background-color: #E8EEE7;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}

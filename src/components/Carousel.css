@@ -1,0 +1,45 @@
+.div-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Adjust as needed */
+  }
+  
+  .div {
+    display: none;
+  }
+  
+  .div.active {
+    display: block;
+  }
+  
+  .dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px; /* Adjust as needed */
+    margin-left: -190px;
+  }
+  
+  .dot {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #E4E3E3;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: #2DA950;
+  }
+  .carousel .div-container h1{
+    font-family: "Manrope", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: start;
+    line-height: 40px;
+    margin-top: 150px;
+    margin-left: 80px;
+    width: 330px;
+  }
+  

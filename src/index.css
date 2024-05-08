@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.green-top-top{
+    color:  #2DA950;
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.reg-top-top {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 56px;
+    color: #1C1C1C;
+    width:700px;
+}

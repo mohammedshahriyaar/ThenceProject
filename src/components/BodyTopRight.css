@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.body-top-buttom-right-container{
+    flex: 5;
+}
+.top-background img{
+    width: 400px;
+    height: 570px;
+    margin-top: -80px;
+    margin-left: 110px;
+}
+.body-top-buttom-right-container h1{
+    font-family: "Manrope", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: start;
+    line-height: 40px;
+    margin-top: 150px;
+    margin-left: 80px;
+    width: 330px;
+}
+.body-top-buttom-right-container{
+    background-image: url('../assets/pattern.png');
+    background-repeat: no-repeat; /* Do not repeat the background */
+    background-size: 400px 460px; /* Scale the background to cover the container */
+    background-position: 110% 0%;
+}
+.left-buttom-right-button button{
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    background-color: #1C1C1C;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    width: 220px;
+}
+.left-buttom-right-button .arrow{
+    width: 15px;
+}
+.left-buttom-right-button .ExploreButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5px;
+}
+.left-buttom-right-button{
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.arrow{
+    margin-left: 20px;
+}
+.top-top{
+    margin-top: 40px;
+    margin-left: -110px;
+}
+
+.ExploreButton:hover{
+    color: white;
+    background-color: #4E4E4E;
+}

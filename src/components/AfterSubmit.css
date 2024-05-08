@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+.font-top-top{
+    color:  #2DA950;
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+
+.after-bottom {
+    font-family: "Manrope", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    color: #1C1C1C;
+    width:700px;
+}
+
+.after-bottom-bottom {
+    font-family: "Manrope", sans-serif;
+    font-weight: 150;
+    font-size: 22px;
+    color: #1C1C1C;
+
+}
+
+.text-center img{
+    margin-left: 302px;
+    margin-bottom: 60px;
+    width: 80px;
+    
+}
