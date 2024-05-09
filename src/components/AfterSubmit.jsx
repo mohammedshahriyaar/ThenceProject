@@ -11,10 +11,20 @@ function AfterSubmit() {
   useEffect(() => {
     const redirectTimer = setTimeout(() => {
       navigate('/');
-    }, 500000);
+    }, 50000);
 
     return () => clearTimeout(redirectTimer);
   }, [navigate]);
+
+  useEffect(() => {
+    // Prevent scrolling on mount
+    document.body.style.overflow = 'hidden';
+
+    // Re-enable scrolling when component unmounts
+    return () => {
+      document.body.style.overflow = 'visible';
+    };
+  }, []);
 
   return (
     <>
@@ -22,7 +32,7 @@ function AfterSubmit() {
         <img src={applogo} alt='logo'></img>
       </div>
 
-      <div className="flex justify-center items-center h-screen">
+      <div className="flex justify-center items-center min-h-screen">
         <div className="p-6">
           <div className="text-center mb-4">
             <img src={tick} alt="" ></img>
@@ -43,4 +53,3 @@ function AfterSubmit() {
 }
 
 export default AfterSubmit;
-
