@@ -11,7 +11,7 @@ function AfterSubmit() {
   useEffect(() => {
     const redirectTimer = setTimeout(() => {
       navigate('/');
-    }, 50000);
+    }, 5000);
 
     return () => clearTimeout(redirectTimer);
   }, [navigate]);
